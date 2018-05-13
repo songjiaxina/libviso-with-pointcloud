@@ -1,5 +1,5 @@
 # libviso-with-pointcloud
-This is a project modified on the basis libviso2 to show the semi-dense pointcloud using Pangolin.
+This is a project modified on the basis of libviso2 to show the semi-dense pointcloud using Pangolin.
 If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/software/libviso/)
 
 
@@ -46,10 +46,10 @@ make
 This project is mainly for KITTI ODemotry dataset  
 To Run the project, you need to modify the camera instrinsic parameters in line 119~122 in the `demo.cpp`  :   
 
-param.calib.f  = fx or fy   
+*param.calib.f  = fx or fy   
 param.calib.cu = cx   
 param.calib.cv = cy  
-param.base     =  baseline in meters  
+param.base     =  baseline in meters  *
 
 
 And
