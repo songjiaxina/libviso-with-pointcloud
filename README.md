@@ -3,10 +3,9 @@ This is a project modified on the basis libviso2 to show the semi-dense pointclo
 If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/software/libviso/)
 
 
-## Build the Raw libviso2
 The whole project is tested in **Ubuntu ** Platorforms
 
-Prerequisites needed for compiling and running the raw libviso2 :
+## Prerequisites needed for compiling and running the raw libviso2 :
 
 - libpng (available at: http://www.libpng.org/pub/png/libpng.html)
 - libpng++ (available at: http://www.nongnu.org/pngpp/)
@@ -18,24 +17,24 @@ box you can get them via apt:
 - sudo apt-get install libpng++-dev
 ```
 
-## Build this project
+## Additional Prerequisites for this project
 Besides,to build this project, you need the followings:
 
-### Pangolin
+#### Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. 
 Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
-### OpenCV
+#### OpenCV
 We use [OpenCV] to simply to read and displat image.
 
-### Eigen3
+#### Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. 
 
-### C++11 or C++0x Compiler
+#### C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
 
 
-
+## Build
 Finaly ``` cd ```to the project folder ,and 
 
 ```
@@ -43,7 +42,7 @@ cmake .
 make 
 ```
 
-
+## Run
 This project is mainly for KITTI ODemotry dataset
 To Run the project, you need to modify the camera instrinsic parameters in line 119~122 in the `demo.cpp`  :
 
