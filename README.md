@@ -4,6 +4,8 @@ If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/so
 
 
 ## Build the Raw libviso2
+The whole project is tested in **Ubuntu ** Platorforms
+
 Prerequisites needed for compiling and running the raw libviso2 :
 
 - libpng (available at: http://www.libpng.org/pub/png/libpng.html)
@@ -16,33 +18,49 @@ box you can get them via apt:
 - sudo apt-get install libpng++-dev
 ```
 
+## Build this project
 Besides,to build this project, you need the followings:
 
-## Pangolin
+### Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. 
 Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
-## OpenCV
+### OpenCV
 We use [OpenCV] to simply to read and displat image.
 
-## Eigen3
+### Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. 
 
-## C++11 or C++0x Compiler
+### C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
 
-Build the project:
+
+
+Finaly ``` cd ```to the project folder ,and 
+
 ```
 cmake .
 make 
 ```
 
 
-Finally Run the project:
+This project is mainly for KITTI ODemotry dataset
+To Run the project, you need to modify the camera instrinsic parameters in line 119~122 in the `demo.cpp`  :
+
+param.calib.f  = fx or fy
+param.calib.cu = cx
+param.calib.cv = cy
+param.base     =  baseline in meters
+
+
+And
 
 ```
 ./viso2  path_to_KITTI_dataset
 ```
+where "the path_to_KITTI_dataset" is dataset sequence root directory which contains "image_0" , "image_1" and so on
+
+
 
 ## Result
 **Pangolin GUI:** .  
