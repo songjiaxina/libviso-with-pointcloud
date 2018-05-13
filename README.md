@@ -21,17 +21,17 @@ box you can get them via apt:
 Besides,to build this project, you need the followings:
 
 #### Pangolin
-We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. 
+We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and interface. 
 Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
 #### OpenCV
-We use [OpenCV] to simply to read and displat image.
+We use [OpenCV] to simply read and display image.
 
 #### Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. 
 
 #### C++11 or C++0x Compiler
-We use the new thread and chrono functionalities of C++11.
+We use the some functionalities of C++11.
 
 
 ## Build
@@ -43,7 +43,7 @@ make
 ```
 
 ## Run
-This project is mainly for KITTI ODemotry dataset  
+This project is mainly for KITTI ODemotry dataset.You need to download a sequence. The dataset is available through http://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets  
 To Run the project, you need to modify the camera instrinsic parameters in line 119~122 in the `demo.cpp`  :   
 
 *param.calib.f  = fx or fy   
