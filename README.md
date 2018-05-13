@@ -1,8 +1,8 @@
-## libviso-with-pointcloud
+##  libviso-with-pointcloud
 This is a project modified on the basis libviso2 to show the semi-dense pointcloud
 If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/software/libviso/)
 
-#Build the Raw libviso2
+# Build the Raw libviso2
 Prerequisites needed for compiling and running the raw libviso2 :
 
 - libpng (available at: http://www.libpng.org/pub/png/libpng.html)
