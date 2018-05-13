@@ -46,10 +46,10 @@ make
 This project is mainly for KITTI ODemotry dataset  
 To Run the project, you need to modify the camera instrinsic parameters in line 119~122 in the `demo.cpp`  :   
 
-*param.calib.f  = fx or fy   
+* param.calib.f  = fx or fy   
 param.calib.cu = cx   
 param.calib.cv = cy  
-param.base     =  baseline in meters  *
+param.base     =  baseline in meters *
 
 
 And
