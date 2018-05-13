@@ -39,3 +39,8 @@ Finally Run the project:
 ```
 ./viso2  path_to_KITTI_dataset
 ```
+
+# 4. Result
+**Actual Situation:** HIT Robot Institute 107 Room.  
+ 
+![](https://github.com/SongJiaxinHIT/libviso-with-pointcloud/raw/master/images/result.png)  
