@@ -41,6 +41,6 @@ Finally Run the project:
 ```
 
 # 4. Result
-**Actual Situation:** HIT Robot Institute 107 Room.  
+**Pangolin GUI:** .  
  
-![](https://github.com/SongJiaxinHIT/libviso-with-pointcloud/raw/master/images/result.png)  
+![](https://github.com/SongJiaxinHIT/libviso-with-pointcloud/raw/master/image/result.png)  
