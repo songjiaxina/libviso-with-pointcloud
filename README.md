@@ -3,7 +3,7 @@ This is a project modified on the basis of libviso2 to show the semi-dense point
 If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/software/libviso/)
 
 
-The whole project is tested in **Ubuntu ** Platorforms
+The whole project is tested in **Ubuntu** Platorforms
 
 ## Prerequisites needed for compiling and running the raw libviso2 :
 
