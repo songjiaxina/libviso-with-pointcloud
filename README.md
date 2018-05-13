@@ -1,9 +1,9 @@
-## libviso-with-pointcloud
+# libviso-with-pointcloud
 This is a project modified on the basis libviso2 to show the semi-dense pointcloud using Pangolin.
 If you want to konow  more about libviso2, please cite (http://www.cvlibs.net/software/libviso/)
 
 
-# Build the Raw libviso2
+## Build the Raw libviso2
 Prerequisites needed for compiling and running the raw libviso2 :
 
 - libpng (available at: http://www.libpng.org/pub/png/libpng.html)
@@ -18,17 +18,17 @@ box you can get them via apt:
 
 Besides,to build this project, you need the followings:
 
-# Pangolin
+## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. 
 Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
-# OpenCV
+## OpenCV
 We use [OpenCV] to simply to read and displat image.
 
-# Eigen3
+## Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. 
 
-# C++11 or C++0x Compiler
+## C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
 
 Build the project:
@@ -44,7 +44,7 @@ Finally Run the project:
 ./viso2  path_to_KITTI_dataset
 ```
 
-# Result
+## Result
 **Pangolin GUI:** .  
  
 ![](https://github.com/SongJiaxinHIT/libviso-with-pointcloud/raw/master/image/result.png)  
